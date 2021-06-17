@@ -17,7 +17,7 @@ class AlamofireTableViewController: UITableViewController {
         super.viewDidLoad()
         
         loadWeather()
-        tableView.backgroundColor = UIColor.init(red: 74/255, green: 187/255, blue: 223/255, alpha: 1.0)
+        tableView.backgroundColor = UIColor.init(red: 38/255, green: 186/255, blue: 225/255, alpha: 1.0)
         tableView.register(DailyWeatherTableViewCell.nib(), forCellReuseIdentifier: "DailyWeatherTableViewCell")
     }
     
